@@ -1,0 +1,103 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="small_text">
+        <item name="android:textSize">@dimen/_11sp</item>
+        <item name="setFont">helveticaneue_light</item>
+    </style>
+
+    <style name="small_text_semi_bold">
+        <item name="android:textSize">@dimen/_11sp</item>
+        <item name="setFont">helveticaneue_medium</item>
+    </style>
+
+    <style name="small_text_bold">
+        <item name="android:textSize">@dimen/_11sp</item>
+        <item name="setFont">helveticaNeue_bold</item>
+    </style>
+
+    <style name="medium_text">
+        <item name="android:textSize">@dimen/_13sp</item>
+        <item name="setFont">helveticaneue_light</item>
+    </style>
+
+    <style name="medium_text_semi_bold">
+        <item name="android:textSize">@dimen/_13sp</item>
+        <item name="setFont">helveticaneue_medium</item>
+    </style>
+
+    <style name="medium_text_bold">
+        <item name="android:textSize">@dimen/_13sp</item>
+        <item name="setFont">helveticaNeue_bold</item>
+    </style>
+
+    <style name="large_text">
+        <item name="android:textSize">@dimen/_15sp</item>
+        <item name="setFont">helveticaneue_light</item>
+    </style>
+
+    <style name="large_text_semi_bold">
+        <item name="android:textSize">@dimen/_15sp</item>
+        <item name="setFont">helveticaneue_medium</item>
+    </style>
+
+    <style name="large_text_bold">
+        <item name="android:textSize">@dimen/_15sp</item>
+        <item name="setFont">helveticaNeue_bold</item>
+    </style>
+
+    <style name="extra_large_text" parent="android:Widget">
+        <item name="android:textSize">@dimen/_17sp</item>
+        <item name="setFont">helveticaneue_light</item>
+    </style>
+
+    <style name="extra_large_text_semi_bold" parent="android:Widget">
+        <item name="android:textSize">@dimen/_17sp</item>
+        <item name="setFont">helveticaneue_medium</item>
+    </style>
+
+    <style name="extra_large_text_bold" parent="android:Widget">
+        <item name="android:textSize">@dimen/_17sp</item>
+        <item name="setFont">helveticaNeue_bold</item>
+    </style>
+
+    <style name="AppNoActionBarTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+    <style name="AppNoActionBarTheme1" parent="AppNoActionBarTheme">
+        <item name="colorAccent">@color/gold_main</item>
+    </style>
+
+    <!--TextView-->
+    <declare-styleable name="MyTextView">
+        <attr name="setFont" format="enum">
+            <enum name="helveticaneue" value="0" />
+            <enum name="helveticaNeue_bold" value="1" />
+            <enum name="helveticaneue_italic" value="2" />
+            <enum name="helveticaneue_light" value="3" />
+            <enum name="helveticaneue_lightitalic" value="4" />
+            <enum name="helveticaneue_medium" value="5" />
+        </attr>
+    </declare-styleable>
+
+    <string-array name="FontNames">
+        <item>@string/helveticaneue</item>
+        <item>@string/helveticaNeue_bold</item>
+        <item>@string/helveticaneue_italic</item>
+        <item>@string/helveticaneue_light</item>
+        <item>@string/helveticaneue_lightitalic</item>
+        <item>@string/helveticaneue_medium</item>
+    </string-array>
+
+
+</resources>

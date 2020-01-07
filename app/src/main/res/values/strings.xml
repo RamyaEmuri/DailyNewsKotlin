@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DailyNewsKotlin</string>
+
+    <string name="helveticaneue">HelveticaNeue.ttf</string>
+    <string name="helveticaNeue_bold">HelveticaNeue-Bold.ttf</string>
+    <string name="helveticaneue_italic">HelveticaNeue-Italic.ttf</string>
+    <string name="helveticaneue_light">HelveticaNeue-Light.ttf</string>
+    <string name="helveticaneue_lightitalic">HelveticaNeue-LightItalic.ttf</string>
+    <string name="helveticaneue_medium">HelveticaNeue-Medium.ttf</string>
+</resources>
